@@ -1,0 +1,832 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>VINCENTKENUTAMA</Machine>
+    <WindowsUser>vince</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>com.companyname.foam2d</PackageIdentityName>
+    <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
+    <IntermediateOutputPath>D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
+    <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>
+    </WindowsSdkPath>
+    <LayoutDir>D:\Foam2D\Foam2D\Foam2D\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
+    <RegisteredManifestChecksum>B3D84E5DC020A7972E599FE2266795EB59E1B98078058C5EEAF1B504C4190B7B</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>com.companyname.foam2d_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>com.companyname.foam2d_9zz4h110yvjzm!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>com.companyname.foam2d</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=User Name</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.1</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Foam2D\Foam2D\Foam2D\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-12-20T10:10:21.656</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2023-12-20T10:10:21.562</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Foam2D.runtimeconfig.json">
+      <PackagePath>Foam2D.runtimeconfig.json</PackagePath>
+      <Modified>2023-12-20T07:56:42.186</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Foam2D.dll">
+      <PackagePath>Foam2D.dll</PackagePath>
+      <Modified>2023-12-20T10:10:21.169</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
+      <PackagePath>Foam2D.exe</PackagePath>
+      <Modified>2023-12-20T10:10:21.173</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\Resources\Raw\AboutAssets.txt">
+      <PackagePath>AboutAssets.txt</PackagePath>
+      <Modified>2023-12-20T07:25:56.748</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
+      <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
+      <Modified>2023-12-20T07:26:14.445</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
+      <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
+      <Modified>2023-12-20T07:26:14.465</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
+      <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
+      <Modified>2023-12-20T07:26:14.482</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
+      <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
+      <Modified>2023-12-20T07:26:14.512</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
+      <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
+      <Modified>2023-12-20T07:26:14.616</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\Inter-Regular.ttf">
+      <PackagePath>Inter-Regular.ttf</PackagePath>
+      <Modified>2023-12-20T08:14:15.509</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\Inter.zip">
+      <PackagePath>Inter.zip</PackagePath>
+      <Modified>2023-12-20T08:14:10.987</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+      <PackagePath>OpenSans-Regular.ttf</PackagePath>
+      <Modified>2023-12-20T07:25:56.744</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
+      <PackagePath>OpenSans-Semibold.ttf</PackagePath>
+      <Modified>2023-12-20T07:25:56.744</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+      <PackagePath>dotnet_bot.scale-100.png</PackagePath>
+      <Modified>2023-12-20T10:07:53.844</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+      <PackagePath>dotnet_bot.scale-125.png</PackagePath>
+      <Modified>2023-12-20T10:07:53.851</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+      <PackagePath>dotnet_bot.scale-150.png</PackagePath>
+      <Modified>2023-12-20T10:07:53.862</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+      <PackagePath>dotnet_bot.scale-200.png</PackagePath>
+      <Modified>2023-12-20T10:07:53.878</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+      <PackagePath>dotnet_bot.scale-400.png</PackagePath>
+      <Modified>2023-12-20T10:07:53.944</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\folder.ico">
+      <PackagePath>folder.ico</PackagePath>
+      <Modified>2023-12-20T10:07:53.878</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\folderLargeTile.scale-100.png">
+      <PackagePath>folderLargeTile.scale-100.png</PackagePath>
+      <Modified>2023-12-20T10:07:54.257</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\folderLargeTile.scale-125.png">
+      <PackagePath>folderLargeTile.scale-125.png</PackagePath>
+      <Modified>2023-12-20T10:07:54.273</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\folderLargeTile.scale-150.png">
+      <PackagePath>folderLargeTile.scale-150.png</PackagePath>
+      <Modified>2023-12-20T10:07:54.301</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\folderLargeTile.scale-200.png">
+      <PackagePath>folderLargeTile.scale-200.png</PackagePath>
+      <Modified>2023-12-20T10:07:54.336</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\folderLargeTile.scale-400.png">
+      <PackagePath>folderLargeTile.scale-400.png</PackagePath>
+      <Modified>2023-12-20T10:07:54.456</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\folderLogo.altform-lightunplated_targetsize-16.png">
+      <PackagePath>folderLogo.altform-lightunplated_targetsize-16.png</PackagePath>
+      <Modified>2023-12-20T10:07:53.966</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\folderLogo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>folderLogo.altform-lightunplated_targetsize-24.png</PackagePath>
+      <Modified>2023-12-20T10:07:53.969</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\folderLogo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>folderLogo.altform-lightunplated_targetsize-256.png</PackagePath>
+      <Modified>2023-12-20T10:07:53.988</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\folderLogo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>folderLogo.altform-lightunplated_targetsize-32.png</PackagePath>
+      <Modified>2023-12-20T10:07:53.974</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\folderLogo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>folderLogo.altform-lightunplated_targetsize-48.png</PackagePath>
+      <Modified>2023-12-20T10:07:53.978</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\folderLogo.altform-unplated_targetsize-16.png">
+      <PackagePath>folderLogo.altform-unplated_targetsize-16.png</PackagePath>
+      <Modified>2023-12-20T10:07:53.935</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\folderLogo.altform-unplated_targetsize-24.png">
+      <PackagePath>folderLogo.altform-unplated_targetsize-24.png</PackagePath>
+      <Modified>2023-12-20T10:07:53.941</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\folderLogo.altform-unplated_targetsize-256.png">
+      <PackagePath>folderLogo.altform-unplated_targetsize-256.png</PackagePath>
+      <Modified>2023-12-20T10:07:53.961</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\folderLogo.altform-unplated_targetsize-32.png">
+      <PackagePath>folderLogo.altform-unplated_targetsize-32.png</PackagePath>
+      <Modified>2023-12-20T10:07:53.946</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\folderLogo.altform-unplated_targetsize-48.png">
+      <PackagePath>folderLogo.altform-unplated_targetsize-48.png</PackagePath>
+      <Modified>2023-12-20T10:07:53.950</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\folderLogo.scale-100.png">
+      <PackagePath>folderLogo.scale-100.png</PackagePath>
+      <Modified>2023-12-20T10:07:53.882</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\folderLogo.scale-125.png">
+      <PackagePath>folderLogo.scale-125.png</PackagePath>
+      <Modified>2023-12-20T10:07:53.887</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\folderLogo.scale-150.png">
+      <PackagePath>folderLogo.scale-150.png</PackagePath>
+      <Modified>2023-12-20T10:07:53.894</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\folderLogo.scale-200.png">
+      <PackagePath>folderLogo.scale-200.png</PackagePath>
+      <Modified>2023-12-20T10:07:53.898</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\folderLogo.scale-400.png">
+      <PackagePath>folderLogo.scale-400.png</PackagePath>
+      <Modified>2023-12-20T10:07:53.906</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\folderLogo.targetsize-16.png">
+      <PackagePath>folderLogo.targetsize-16.png</PackagePath>
+      <Modified>2023-12-20T10:07:53.910</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\folderLogo.targetsize-24.png">
+      <PackagePath>folderLogo.targetsize-24.png</PackagePath>
+      <Modified>2023-12-20T10:07:53.913</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\folderLogo.targetsize-256.png">
+      <PackagePath>folderLogo.targetsize-256.png</PackagePath>
+      <Modified>2023-12-20T10:07:53.932</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\folderLogo.targetsize-32.png">
+      <PackagePath>folderLogo.targetsize-32.png</PackagePath>
+      <Modified>2023-12-20T10:07:53.918</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\folderLogo.targetsize-48.png">
+      <PackagePath>folderLogo.targetsize-48.png</PackagePath>
+      <Modified>2023-12-20T10:07:53.921</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\folderMediumTile.scale-100.png">
+      <PackagePath>folderMediumTile.scale-100.png</PackagePath>
+      <Modified>2023-12-20T10:07:54.056</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\folderMediumTile.scale-125.png">
+      <PackagePath>folderMediumTile.scale-125.png</PackagePath>
+      <Modified>2023-12-20T10:07:54.063</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\folderMediumTile.scale-150.png">
+      <PackagePath>folderMediumTile.scale-150.png</PackagePath>
+      <Modified>2023-12-20T10:07:54.071</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\folderMediumTile.scale-200.png">
+      <PackagePath>folderMediumTile.scale-200.png</PackagePath>
+      <Modified>2023-12-20T10:07:54.085</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\folderMediumTile.scale-400.png">
+      <PackagePath>folderMediumTile.scale-400.png</PackagePath>
+      <Modified>2023-12-20T10:07:54.122</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\folderSmallTile.scale-100.png">
+      <PackagePath>folderSmallTile.scale-100.png</PackagePath>
+      <Modified>2023-12-20T10:07:54.021</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\folderSmallTile.scale-125.png">
+      <PackagePath>folderSmallTile.scale-125.png</PackagePath>
+      <Modified>2023-12-20T10:07:54.026</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\folderSmallTile.scale-150.png">
+      <PackagePath>folderSmallTile.scale-150.png</PackagePath>
+      <Modified>2023-12-20T10:07:54.031</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\folderSmallTile.scale-200.png">
+      <PackagePath>folderSmallTile.scale-200.png</PackagePath>
+      <Modified>2023-12-20T10:07:54.038</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\folderSmallTile.scale-400.png">
+      <PackagePath>folderSmallTile.scale-400.png</PackagePath>
+      <Modified>2023-12-20T10:07:54.047</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\folderStoreLogo.scale-100.png">
+      <PackagePath>folderStoreLogo.scale-100.png</PackagePath>
+      <Modified>2023-12-20T10:07:53.995</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\folderStoreLogo.scale-125.png">
+      <PackagePath>folderStoreLogo.scale-125.png</PackagePath>
+      <Modified>2023-12-20T10:07:53.995</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\folderStoreLogo.scale-150.png">
+      <PackagePath>folderStoreLogo.scale-150.png</PackagePath>
+      <Modified>2023-12-20T10:07:54.004</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\folderStoreLogo.scale-200.png">
+      <PackagePath>folderStoreLogo.scale-200.png</PackagePath>
+      <Modified>2023-12-20T10:07:54.007</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\folderStoreLogo.scale-400.png">
+      <PackagePath>folderStoreLogo.scale-400.png</PackagePath>
+      <Modified>2023-12-20T10:07:54.017</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\folderWideTile.scale-100.png">
+      <PackagePath>folderWideTile.scale-100.png</PackagePath>
+      <Modified>2023-12-20T10:07:54.135</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\folderWideTile.scale-125.png">
+      <PackagePath>folderWideTile.scale-125.png</PackagePath>
+      <Modified>2023-12-20T10:07:54.146</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\folderWideTile.scale-150.png">
+      <PackagePath>folderWideTile.scale-150.png</PackagePath>
+      <Modified>2023-12-20T10:07:54.155</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\folderWideTile.scale-200.png">
+      <PackagePath>folderWideTile.scale-200.png</PackagePath>
+      <Modified>2023-12-20T10:07:54.177</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\folderWideTile.scale-400.png">
+      <PackagePath>folderWideTile.scale-400.png</PackagePath>
+      <Modified>2023-12-20T10:07:54.243</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon.ico">
+      <PackagePath>icon.ico</PackagePath>
+      <Modified>2023-12-20T08:24:58.420</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLargeTile.scale-100.png">
+      <PackagePath>iconLargeTile.scale-100.png</PackagePath>
+      <Modified>2023-12-20T08:24:58.696</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLargeTile.scale-125.png">
+      <PackagePath>iconLargeTile.scale-125.png</PackagePath>
+      <Modified>2023-12-20T08:24:58.715</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLargeTile.scale-150.png">
+      <PackagePath>iconLargeTile.scale-150.png</PackagePath>
+      <Modified>2023-12-20T08:24:58.737</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLargeTile.scale-200.png">
+      <PackagePath>iconLargeTile.scale-200.png</PackagePath>
+      <Modified>2023-12-20T08:24:58.776</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLargeTile.scale-400.png">
+      <PackagePath>iconLargeTile.scale-400.png</PackagePath>
+      <Modified>2023-12-20T08:24:58.896</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.altform-lightunplated_targetsize-16.png">
+      <PackagePath>iconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
+      <Modified>2023-12-20T08:24:58.467</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>iconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
+      <Modified>2023-12-20T08:24:58.470</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>iconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
+      <Modified>2023-12-20T08:24:58.479</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>iconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
+      <Modified>2023-12-20T08:24:58.471</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>iconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
+      <Modified>2023-12-20T08:24:58.471</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.altform-unplated_targetsize-16.png">
+      <PackagePath>iconLogo.altform-unplated_targetsize-16.png</PackagePath>
+      <Modified>2023-12-20T08:24:58.454</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.altform-unplated_targetsize-24.png">
+      <PackagePath>iconLogo.altform-unplated_targetsize-24.png</PackagePath>
+      <Modified>2023-12-20T08:24:58.456</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.altform-unplated_targetsize-256.png">
+      <PackagePath>iconLogo.altform-unplated_targetsize-256.png</PackagePath>
+      <Modified>2023-12-20T08:24:58.467</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.altform-unplated_targetsize-32.png">
+      <PackagePath>iconLogo.altform-unplated_targetsize-32.png</PackagePath>
+      <Modified>2023-12-20T08:24:58.457</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.altform-unplated_targetsize-48.png">
+      <PackagePath>iconLogo.altform-unplated_targetsize-48.png</PackagePath>
+      <Modified>2023-12-20T08:24:58.460</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.scale-100.png">
+      <PackagePath>iconLogo.scale-100.png</PackagePath>
+      <Modified>2023-12-20T08:24:58.427</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.scale-125.png">
+      <PackagePath>iconLogo.scale-125.png</PackagePath>
+      <Modified>2023-12-20T08:24:58.430</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.scale-150.png">
+      <PackagePath>iconLogo.scale-150.png</PackagePath>
+      <Modified>2023-12-20T08:24:58.432</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.scale-200.png">
+      <PackagePath>iconLogo.scale-200.png</PackagePath>
+      <Modified>2023-12-20T08:24:58.432</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.scale-400.png">
+      <PackagePath>iconLogo.scale-400.png</PackagePath>
+      <Modified>2023-12-20T08:24:58.438</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.targetsize-16.png">
+      <PackagePath>iconLogo.targetsize-16.png</PackagePath>
+      <Modified>2023-12-20T08:24:58.441</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.targetsize-24.png">
+      <PackagePath>iconLogo.targetsize-24.png</PackagePath>
+      <Modified>2023-12-20T08:24:58.443</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.targetsize-256.png">
+      <PackagePath>iconLogo.targetsize-256.png</PackagePath>
+      <Modified>2023-12-20T08:24:58.454</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.targetsize-32.png">
+      <PackagePath>iconLogo.targetsize-32.png</PackagePath>
+      <Modified>2023-12-20T08:24:58.443</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.targetsize-48.png">
+      <PackagePath>iconLogo.targetsize-48.png</PackagePath>
+      <Modified>2023-12-20T08:24:58.445</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconMediumTile.scale-100.png">
+      <PackagePath>iconMediumTile.scale-100.png</PackagePath>
+      <Modified>2023-12-20T08:24:58.520</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconMediumTile.scale-125.png">
+      <PackagePath>iconMediumTile.scale-125.png</PackagePath>
+      <Modified>2023-12-20T08:24:58.526</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconMediumTile.scale-150.png">
+      <PackagePath>iconMediumTile.scale-150.png</PackagePath>
+      <Modified>2023-12-20T08:24:58.534</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconMediumTile.scale-200.png">
+      <PackagePath>iconMediumTile.scale-200.png</PackagePath>
+      <Modified>2023-12-20T08:24:58.545</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconMediumTile.scale-400.png">
+      <PackagePath>iconMediumTile.scale-400.png</PackagePath>
+      <Modified>2023-12-20T08:24:58.576</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconSmallTile.scale-100.png">
+      <PackagePath>iconSmallTile.scale-100.png</PackagePath>
+      <Modified>2023-12-20T08:24:58.496</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconSmallTile.scale-125.png">
+      <PackagePath>iconSmallTile.scale-125.png</PackagePath>
+      <Modified>2023-12-20T08:24:58.499</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconSmallTile.scale-150.png">
+      <PackagePath>iconSmallTile.scale-150.png</PackagePath>
+      <Modified>2023-12-20T08:24:58.501</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconSmallTile.scale-200.png">
+      <PackagePath>iconSmallTile.scale-200.png</PackagePath>
+      <Modified>2023-12-20T08:24:58.506</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconSmallTile.scale-400.png">
+      <PackagePath>iconSmallTile.scale-400.png</PackagePath>
+      <Modified>2023-12-20T08:24:58.516</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconStoreLogo.scale-100.png">
+      <PackagePath>iconStoreLogo.scale-100.png</PackagePath>
+      <Modified>2023-12-20T08:24:58.479</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconStoreLogo.scale-125.png">
+      <PackagePath>iconStoreLogo.scale-125.png</PackagePath>
+      <Modified>2023-12-20T08:24:58.484</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconStoreLogo.scale-150.png">
+      <PackagePath>iconStoreLogo.scale-150.png</PackagePath>
+      <Modified>2023-12-20T08:24:58.486</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconStoreLogo.scale-200.png">
+      <PackagePath>iconStoreLogo.scale-200.png</PackagePath>
+      <Modified>2023-12-20T08:24:58.489</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconStoreLogo.scale-400.png">
+      <PackagePath>iconStoreLogo.scale-400.png</PackagePath>
+      <Modified>2023-12-20T08:24:58.494</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconWideTile.scale-100.png">
+      <PackagePath>iconWideTile.scale-100.png</PackagePath>
+      <Modified>2023-12-20T08:24:58.584</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconWideTile.scale-125.png">
+      <PackagePath>iconWideTile.scale-125.png</PackagePath>
+      <Modified>2023-12-20T08:24:58.592</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconWideTile.scale-150.png">
+      <PackagePath>iconWideTile.scale-150.png</PackagePath>
+      <Modified>2023-12-20T08:24:58.601</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconWideTile.scale-200.png">
+      <PackagePath>iconWideTile.scale-200.png</PackagePath>
+      <Modified>2023-12-20T08:24:58.620</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconWideTile.scale-400.png">
+      <PackagePath>iconWideTile.scale-400.png</PackagePath>
+      <Modified>2023-12-20T08:24:58.678</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\new.scale-100.png">
+      <PackagePath>new.scale-100.png</PackagePath>
+      <Modified>2023-12-20T06:54:00.226</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\open.scale-100.png">
+      <PackagePath>open.scale-100.png</PackagePath>
+      <Modified>2023-12-20T06:58:17.361</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\prepare.scale-100.png">
+      <PackagePath>prepare.scale-100.png</PackagePath>
+      <Modified>2023-12-20T06:55:16.596</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\start_page_doodle.scale-100.png">
+      <PackagePath>start_page_doodle.scale-100.png</PackagePath>
+      <Modified>2023-12-20T07:27:10.025</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Foam2D.deps.json">
+      <PackagePath>Foam2D.deps.json</PackagePath>
+      <Modified>2023-12-20T10:10:21.501</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
+      <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
+      <Modified>2023-10-16T19:41:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\WinRT.Runtime.dll">
+      <PackagePath>WinRT.Runtime.dll</PackagePath>
+      <Modified>2023-10-16T19:41:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.extensions.configuration\8.0.0\lib\net8.0\Microsoft.Extensions.Configuration.dll">
+      <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>
+      <Modified>2023-10-31T14:59:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.extensions.configuration.abstractions\8.0.0\lib\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll">
+      <PackagePath>Microsoft.Extensions.Configuration.Abstractions.dll</PackagePath>
+      <Modified>2023-10-31T14:59:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.extensions.dependencyinjection\8.0.0\lib\net8.0\Microsoft.Extensions.DependencyInjection.dll">
+      <PackagePath>Microsoft.Extensions.DependencyInjection.dll</PackagePath>
+      <Modified>2023-10-31T14:59:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\8.0.0\lib\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll">
+      <PackagePath>Microsoft.Extensions.DependencyInjection.Abstractions.dll</PackagePath>
+      <Modified>2023-10-31T14:58:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.extensions.logging\8.0.0\lib\net8.0\Microsoft.Extensions.Logging.dll">
+      <PackagePath>Microsoft.Extensions.Logging.dll</PackagePath>
+      <Modified>2023-10-31T14:59:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.extensions.logging.abstractions\8.0.0\lib\net8.0\Microsoft.Extensions.Logging.Abstractions.dll">
+      <PackagePath>Microsoft.Extensions.Logging.Abstractions.dll</PackagePath>
+      <Modified>2023-10-31T14:59:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.extensions.logging.debug\8.0.0\lib\net8.0\Microsoft.Extensions.Logging.Debug.dll">
+      <PackagePath>Microsoft.Extensions.Logging.Debug.dll</PackagePath>
+      <Modified>2023-10-31T14:59:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.extensions.options\8.0.0\lib\net8.0\Microsoft.Extensions.Options.dll">
+      <PackagePath>Microsoft.Extensions.Options.dll</PackagePath>
+      <Modified>2023-10-31T14:59:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.extensions.primitives\8.0.0\lib\net8.0\Microsoft.Extensions.Primitives.dll">
+      <PackagePath>Microsoft.Extensions.Primitives.dll</PackagePath>
+      <Modified>2023-10-31T14:58:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.graphics.win2d\1.0.5.1\lib\net5.0-windows10.0.17763.0\Microsoft.Graphics.Canvas.Interop.dll">
+      <PackagePath>Microsoft.Graphics.Canvas.Interop.dll</PackagePath>
+      <Modified>2023-05-31T20:07:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.maui.controls.compatibility\8.0.3\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.dll">
+      <PackagePath>Microsoft.Maui.Controls.Compatibility.dll</PackagePath>
+      <Modified>2023-11-07T20:48:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.dll">
+      <PackagePath>Microsoft.Maui.Controls.dll</PackagePath>
+      <Modified>2023-11-07T20:45:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.maui.controls.xaml\8.0.3\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Xaml.dll">
+      <PackagePath>Microsoft.Maui.Controls.Xaml.dll</PackagePath>
+      <Modified>2023-11-07T20:45:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.maui.core\8.0.3\lib\net8.0-windows10.0.19041\Microsoft.Maui.dll">
+      <PackagePath>Microsoft.Maui.dll</PackagePath>
+      <Modified>2023-11-07T20:45:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.maui.essentials\8.0.3\lib\net8.0-windows10.0.19041\Microsoft.Maui.Essentials.dll">
+      <PackagePath>Microsoft.Maui.Essentials.dll</PackagePath>
+      <Modified>2023-11-07T20:47:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.maui.graphics\8.0.3\lib\net8.0-windows10.0.19041\Microsoft.Maui.Graphics.dll">
+      <PackagePath>Microsoft.Maui.Graphics.dll</PackagePath>
+      <Modified>2023-11-07T20:44:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.maui.graphics.win2d.winui.desktop\8.0.3\lib\net8.0-windows10.0.19041\Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll">
+      <PackagePath>Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll</PackagePath>
+      <Modified>2023-11-07T20:47:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\lib\net6.0-windows10.0.18362.0\Microsoft.InteractiveExperiences.Projection.dll">
+      <PackagePath>Microsoft.InteractiveExperiences.Projection.dll</PackagePath>
+      <Modified>2023-07-21T16:44:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\lib\net6.0-windows10.0.18362.0\Microsoft.WinUI.dll">
+      <PackagePath>Microsoft.WinUI.dll</PackagePath>
+      <Modified>2023-07-21T22:29:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.AppLifecycle.Projection.dll">
+      <PackagePath>Microsoft.Windows.AppLifecycle.Projection.dll</PackagePath>
+      <Modified>2023-07-21T22:29:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.AppNotifications.Builder.Projection.dll">
+      <PackagePath>Microsoft.Windows.AppNotifications.Builder.Projection.dll</PackagePath>
+      <Modified>2023-07-21T22:29:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.AppNotifications.Projection.dll">
+      <PackagePath>Microsoft.Windows.AppNotifications.Projection.dll</PackagePath>
+      <Modified>2023-07-21T22:29:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll">
+      <PackagePath>Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll</PackagePath>
+      <Modified>2023-07-21T22:29:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.Resources.Projection.dll">
+      <PackagePath>Microsoft.Windows.ApplicationModel.Resources.Projection.dll</PackagePath>
+      <Modified>2023-04-28T12:59:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll">
+      <PackagePath>Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll</PackagePath>
+      <Modified>2023-07-21T22:29:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.PushNotifications.Projection.dll">
+      <PackagePath>Microsoft.Windows.PushNotifications.Projection.dll</PackagePath>
+      <Modified>2023-07-21T22:29:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.Security.AccessControl.Projection.dll">
+      <PackagePath>Microsoft.Windows.Security.AccessControl.Projection.dll</PackagePath>
+      <Modified>2023-07-21T22:29:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.System.Power.Projection.dll">
+      <PackagePath>Microsoft.Windows.System.Power.Projection.dll</PackagePath>
+      <Modified>2023-07-21T22:29:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.System.Projection.dll">
+      <PackagePath>Microsoft.Windows.System.Projection.dll</PackagePath>
+      <Modified>2023-07-21T22:29:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.Widgets.Projection.dll">
+      <PackagePath>Microsoft.Windows.Widgets.Projection.dll</PackagePath>
+      <Modified>2023-04-20T18:26:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\lib\net6.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
+      <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
+      <Modified>2023-07-21T22:29:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\lib\net6.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Release.Net.dll">
+      <PackagePath>Microsoft.WindowsAppRuntime.Release.Net.dll</PackagePath>
+      <Modified>2023-07-24T19:10:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\ar\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>ar\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:44:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\ca\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>ca\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:44:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\cs\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>cs\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:45:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\da\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>da\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:44:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\de\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>de\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:44:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\el\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>el\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:45:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\es\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>es\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:45:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\fi\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>fi\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:45:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\fr\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>fr\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:45:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\he\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>he\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:45:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\hi\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>hi\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:45:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\hr\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>hr\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:45:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\hu\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>hu\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:45:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\id\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>id\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:45:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\it\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>it\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:45:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\ja\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>ja\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:45:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\ko\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>ko\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:45:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\ms\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>ms\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:45:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\nb\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>nb\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:45:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\nl\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>nl\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:45:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\pl\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>pl\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:46:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\pt-BR\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>pt-BR\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:45:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\pt\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>pt\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:45:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\ro\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>ro\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:45:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\ru\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>ru\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:45:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\sk\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>sk\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:45:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\sv\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>sv\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:45:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\th\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>th\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:44:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\tr\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>tr\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:45:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\uk\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>uk\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:45:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\vi\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>vi\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:45:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\zh-HK\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>zh-HK\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:45:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\zh-Hans\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>zh-Hans\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:45:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\zh-Hant\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>zh-Hant\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:45:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.graphics.win2d\1.0.5.1\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
+      <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
+      <Modified>2023-05-31T20:12:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
+      <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
+      <Modified>2023-04-28T12:58:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.maui.controls.compatibility\8.0.3\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
+      <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
+      <Modified>2023-11-07T20:32:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.pri">
+      <PackagePath>Microsoft.Maui.Controls.pri</PackagePath>
+      <Modified>2023-11-07T20:31:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.maui.core\8.0.3\lib\net8.0-windows10.0.19041\Microsoft.Maui.pri">
+      <PackagePath>Microsoft.Maui.pri</PackagePath>
+      <Modified>2023-11-07T20:31:12.000</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Users\vince\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.3.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.3</Name>
+      <Version>3000.934.1904.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.3, MinVersion = 3000.934.1904.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\vince\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.3.msix</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\vince\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.3.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.3</Name>
+      <Version>3000.934.1904.0</Version>
+      <Architecture>win32</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.3, MinVersion = 3000.934.1904.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\vince\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.3.msix</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\vince\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\buildTransitive\..\tools\MSIX\win10-x64\Microsoft.WindowsAppRuntime.1.3.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.3</Name>
+      <Version>3000.934.1904.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.3, MinVersion = 3000.934.1904.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\vince\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\buildTransitive\..\tools\MSIX\win10-x64\Microsoft.WindowsAppRuntime.1.3.msix</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\vince\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\buildTransitive\..\tools\MSIX\win10-arm64\Microsoft.WindowsAppRuntime.1.3.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.3</Name>
+      <Version>3000.934.1904.0</Version>
+      <Architecture>arm64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.3, MinVersion = 3000.934.1904.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\vince\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\buildTransitive\..\tools\MSIX\win10-arm64\Microsoft.WindowsAppRuntime.1.3.msix</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

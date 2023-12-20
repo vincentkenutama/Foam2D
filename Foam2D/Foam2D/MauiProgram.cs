@@ -13,6 +13,9 @@ namespace Foam2D
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+
+                    //Custom Fonts
+                    fonts.AddFont("Inter-Regular.ttf", "InterRegular"); //Google Fonts
                 });
 
 #if DEBUG

@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Foam2D.StartPage.StartPage"
+             xmlns:Styles="clr-namespace:Foam2D.Resources.Styles"
+             BackgroundColor="White"
+             >
+    <!--<ContentPage.Resources>
+        <ResourceDictionary>
+            <Styles:StartPageStyles x:Key="StartPageStyles"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>-->
+        
+    <Grid>
+        <Grid.RowDefinitions>
+            <!--Foam2D - 2024 Title-->
+            <RowDefinition Height="123"/>
+
+            <!--Recent Files-->
+            <RowDefinition Height="19"/>
+
+            <RowDefinition Height="8"/>
+
+            <!--First Recent Files-->
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="18"/>
+
+            <!--Second Recent Files-->
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="18"/>
+
+            <!--Third Recent Files-->
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="18"/>
+
+            <!--Fourth Recent Files-->
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="18"/>
+
+            <!--Fifth Recent Files-->
+            <RowDefinition Height="50"/>
+            
+            <!--Footer-->
+            <RowDefinition Height="171"/>
+
+
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <!--Foam2D-->
+            <ColumnDefinition Width="17"/>
+            
+            <!--Recent Files and Spacing-->
+            <ColumnDefinition Width="434"/>
+            <ColumnDefinition Width="57"/>
+            
+            <!--New Cut-->
+            <ColumnDefinition Width="80"/>
+            <ColumnDefinition Width="48"/>
+            
+            <!--Open Documents-->
+            <ColumnDefinition Width="23"/>
+            <ColumnDefinition Width="85"/>
+            <ColumnDefinition Width="23"/>
+            <ColumnDefinition Width="40"/>
+            
+            <!--Prepare-->
+            <ColumnDefinition Width="85"/>
+            <ColumnDefinition Width="28"/>
+        </Grid.ColumnDefinitions>
+    
+        
+        <!--Foam2D 2024 Label-->
+        <Label
+            Text="Foam2D - 2024"
+            FontFamily="InterRegular"
+            FontSize="36"
+            Grid.Row="0"
+            Grid.Column="1"
+            VerticalTextAlignment="Center"
+            HorizontalTextAlignment="Start"
+            TextColor="Black"/>
+         
+        <!--Recent Files Label-->
+        <Label
+            Text="Recent Files"
+            FontFamily="InterRegular"
+            FontSize="18"
+            Grid.Row="1"
+            Grid.Column="1"
+            HorizontalTextAlignment="Start"
+            VerticalTextAlignment="Center"
+            TextColor="Black"/>
+
+        <!--First Files
+        Row 3-->
+        <Frame  Margin="0" Padding="0" Style="{StaticResource RecentFilesFrame}" Grid.Row="3" Grid.Column="1">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <!--5 Row-->
+                    <RowDefinition Height="9"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="6"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="9"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <!--6 Kolom-->
+                    <ColumnDefinition Width="11"/>
+                    <ColumnDefinition Width="285"/>
+                    <ColumnDefinition Width="82"/>
+                    <ColumnDefinition Width="11"/>
+                    <ColumnDefinition Width="16"/>
+                    <ColumnDefinition Width="*"/>
+
+                </Grid.ColumnDefinitions>
+
+                <!--Filename Label-->
+                <Label Text="Filename"
+                       TextColor="Black"
+                       Grid.Row="1"
+                       Grid.Column="1"
+                       FontFamily="InterRegular"
+                       FontSize="12"/>
+
+                <!--File Path Label-->
+                <Label Text="D:\Foam2D\Resource"
+                       TextColor="#9d9d9d"
+                       Grid.Row="3"
+                       Grid.Column="1"
+                       FontFamily="InterRegular"
+                       FontSize="12"/>
+
+                <!--Date Label-->
+                <Label Text="20/12/2023"
+                       Grid.Row="1"
+                       Grid.RowSpan="3"
+                       Grid.Column="2"
+                       Grid.ColumnSpan="3"
+                       HorizontalOptions="End"
+                       VerticalOptions="Center"
+                       TextColor="Black"
+                       FontFamily="InterRegular"
+                       FontSize="12"/>
+
+
+                <Button Grid.ColumnSpan="6"
+                        Grid.RowSpan="5"
+                        BackgroundColor="Transparent"
+                        CornerRadius="0"/>
+            </Grid>
+        </Frame>
+
+        <!--Second Files
+        Row 5-->
+        <Frame  Margin="0" Padding="0" Style="{StaticResource RecentFilesFrame}" Grid.Row="5" Grid.Column="1">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <!--5 Row-->
+                    <RowDefinition Height="9"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="6"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="9"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <!--6 Kolom-->
+                    <ColumnDefinition Width="11"/>
+                    <ColumnDefinition Width="285"/>
+                    <ColumnDefinition Width="82"/>
+                    <ColumnDefinition Width="11"/>
+                    <ColumnDefinition Width="16"/>
+                    <ColumnDefinition Width="*"/>
+
+                </Grid.ColumnDefinitions>
+
+                <!--Filename Label-->
+                <Label Text="Filename"
+                       TextColor="Black"
+                       Grid.Row="1"
+                       Grid.Column="1"
+                       FontFamily="InterRegular"
+                       FontSize="12"/>
+
+                <!--File Path Label-->
+                <Label Text="D:\Foam2D\Resource"
+                       TextColor="#9d9d9d"
+                       Grid.Row="3"
+                       Grid.Column="1"
+                       FontFamily="InterRegular"
+                       FontSize="12"/>
+
+                <!--Date Label-->
+                <Label Text="20/12/2023"
+                       Grid.Row="1"
+                       Grid.RowSpan="3"
+                       Grid.Column="2"
+                       Grid.ColumnSpan="3"
+                       HorizontalOptions="End"
+                       VerticalOptions="Center"
+                       TextColor="Black"
+                       FontFamily="InterRegular"
+                       FontSize="12"/>
+
+
+                <Button Grid.ColumnSpan="6"
+                        Grid.RowSpan="5"
+                        BackgroundColor="Transparent"
+                        CornerRadius="0"/>
+            </Grid>
+        </Frame>
+
+        <!--Third Files 
+        Row 7-->
+        <Frame  Margin="0" Padding="0" Style="{StaticResource RecentFilesFrame}" Grid.Row="7" Grid.Column="1">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <!--5 Row-->
+                    <RowDefinition Height="9"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="6"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="9"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <!--6 Kolom-->
+                    <ColumnDefinition Width="11"/>
+                    <ColumnDefinition Width="285"/>
+                    <ColumnDefinition Width="82"/>
+                    <ColumnDefinition Width="11"/>
+                    <ColumnDefinition Width="16"/>
+                    <ColumnDefinition Width="*"/>
+
+                </Grid.ColumnDefinitions>
+
+                <!--Filename Label-->
+                <Label Text="Filename"
+                       TextColor="Black"
+                       Grid.Row="1"
+                       Grid.Column="1"
+                       FontFamily="InterRegular"
+                       FontSize="12"/>
+
+                <!--File Path Label-->
+                <Label Text="D:\Foam2D\Resource"
+                       TextColor="#9d9d9d"
+                       Grid.Row="3"
+                       Grid.Column="1"
+                       FontFamily="InterRegular"
+                       FontSize="12"/>
+
+                <!--Date Label-->
+                <Label Text="20/12/2023"
+                       Grid.Row="1"
+                       Grid.RowSpan="3"
+                       Grid.Column="2"
+                       Grid.ColumnSpan="3"
+                       HorizontalOptions="End"
+                       VerticalOptions="Center"
+                       TextColor="Black"
+                       FontFamily="InterRegular"
+                       FontSize="12"/>
+
+
+                <Button Grid.ColumnSpan="6"
+                        Grid.RowSpan="5"
+                        BackgroundColor="Transparent"
+                        CornerRadius="0"/>
+            </Grid>
+        </Frame>
+
+        <!--Fourth Files-->
+        <Frame  Margin="0" Padding="0" Style="{StaticResource RecentFilesFrame}" Grid.Row="9" Grid.Column="1">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <!--5 Row-->
+                    <RowDefinition Height="9"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="6"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="9"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <!--6 Kolom-->
+                    <ColumnDefinition Width="11"/>
+                    <ColumnDefinition Width="285"/>
+                    <ColumnDefinition Width="82"/>
+                    <ColumnDefinition Width="11"/>
+                    <ColumnDefinition Width="16"/>
+                    <ColumnDefinition Width="*"/>
+                    
+                </Grid.ColumnDefinitions>
+                
+                <!--Filename Label-->
+                <Label Text="Filename"
+                       TextColor="Black"
+                       Grid.Row="1"
+                       Grid.Column="1"
+                       FontFamily="InterRegular"
+                       FontSize="12"/>
+
+                <!--File Path Label-->
+                <Label Text="D:\Foam2D\Resource"
+                       TextColor="#9d9d9d"
+                       Grid.Row="3"
+                       Grid.Column="1"
+                       FontFamily="InterRegular"
+                       FontSize="12"/>
+                
+                <!--Date Label-->
+                <Label Text="20/12/2023"
+                       Grid.Row="1"
+                       Grid.RowSpan="3"
+                       Grid.Column="2"
+                       Grid.ColumnSpan="3"
+                       HorizontalOptions="End"
+                       VerticalOptions="Center"
+                       TextColor="Black"
+                       FontFamily="InterRegular"
+                       FontSize="12"/>
+
+
+                <Button Grid.ColumnSpan="6"
+                        Grid.RowSpan="5"
+                        BackgroundColor="Transparent"
+                        CornerRadius="0"/>
+            </Grid>
+        </Frame>
+        
+        <!--Fifth Files 
+        Row 11 
+        Column 1-->
+        <Frame  Margin="0" Padding="0" Style="{StaticResource RecentFilesFrame}" Grid.Row="11" Grid.Column="1">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <!--5 Row-->
+                    <RowDefinition Height="9"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="6"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="9"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <!--6 Kolom-->
+                    <ColumnDefinition Width="11"/>
+                    <ColumnDefinition Width="285"/>
+                    <ColumnDefinition Width="82"/>
+                    <ColumnDefinition Width="11"/>
+                    <ColumnDefinition Width="16"/>
+                    <ColumnDefinition Width="*"/>
+
+                </Grid.ColumnDefinitions>
+
+                <!--Filename Label-->
+                <Label Text="Filename"
+                       TextColor="Black"
+                       Grid.Row="1"
+                       Grid.Column="1"
+                       FontFamily="InterRegular"
+                       FontSize="12"/>
+
+                <!--File Path Label-->
+                <Label Text="D:\Foam2D\Resource"
+                       TextColor="#9d9d9d"
+                       Grid.Row="3"
+                       Grid.Column="1"
+                       FontFamily="InterRegular"
+                       FontSize="12"/>
+
+                <!--Date Label-->
+                <Label Text="20/12/2023"
+                       Grid.Row="1"
+                       Grid.RowSpan="3"
+                       Grid.Column="2"
+                       Grid.ColumnSpan="3"
+                       HorizontalOptions="End"
+                       VerticalOptions="Center"
+                       TextColor="Black"
+                       FontFamily="InterRegular"
+                       FontSize="12"/>
+
+
+                <Button Grid.ColumnSpan="6"
+                        Grid.RowSpan="5"
+                        BackgroundColor="Transparent"
+                        CornerRadius="0"/>
+            </Grid>
+        </Frame>
+
+        <!--Images Doodle-->
+        <Image
+            Source="start_page_doodle.png"
+            Grid.Row="13"
+            Grid.RowSpan="2"
+            Grid.Column="0"
+            Grid.ColumnSpan="4"
+            VerticalOptions="Start"
+            HorizontalOptions="Start"
+            WidthRequest="510"
+            HeightRequest="397"
+            />
+        
+        <!--New Button-->
+        <Frame Padding="0"
+               Grid.Row="6"
+               Grid.RowSpan="2"
+               Grid.Column="3"
+               HeightRequest="80"
+               WidthRequest="80"
+               CornerRadius="20"
+               BackgroundColor="{StaticResource StartPageKuning}"
+               BorderColor="{StaticResource StartPageKuning}">
+            <Frame.Content>
+                <ImageButton Source="new.png"
+                             HorizontalOptions="Center"
+                             WidthRequest="55"/>
+            </Frame.Content>
+              
+        </Frame>
+        
+        <Label Text="New Cut"
+               FontSize="16"
+               Grid.Row="9"
+               Grid.RowSpan="2"
+               Grid.Column="3"
+               TextColor="Black"
+               HorizontalOptions="Center"/>
+
+        <!--Open Document Button-->
+        <Frame Grid.Row="6"
+               Grid.RowSpan="2"
+               Grid.Column="5"
+               Grid.ColumnSpan="3"
+               Padding="0"
+               HeightRequest="85"
+               WidthRequest="85"
+               CornerRadius="20"
+               BackgroundColor="{StaticResource StartPageKuning}"
+               BorderColor="{StaticResource StartPageKuning}">
+            <Frame.Content>
+                <ImageButton Source="open.png"
+                             WidthRequest="55"
+                             HeightRequest="55"/>
+            </Frame.Content>
+        </Frame>
+
+        <Label Text="Open Documents"
+                FontSize="16"
+                Grid.Row="9"
+                Grid.RowSpan="2"
+                Grid.Column="5"
+                Grid.ColumnSpan="3"
+                TextColor="Black"
+                HorizontalOptions="Center">
+            
+        </Label>
+
+        <!--Prepare Button-->
+        <Frame Grid.Row="6"
+               Grid.RowSpan="2"
+               Grid.Column="9"
+               HeightRequest="80"
+               WidthRequest="80"
+               CornerRadius="20"
+               Padding="0"
+               BackgroundColor="{StaticResource StartPageKuning}"
+               BorderColor="{StaticResource StartPageKuning}">
+            <Frame.Content>
+                <ImageButton Source="prepare.png"
+                             WidthRequest="55"
+                             >
+                    
+                    <ImageButton.VerticalOptions>Center</ImageButton.VerticalOptions>
+                    <ImageButton.HorizontalOptions>Center</ImageButton.HorizontalOptions>
+                </ImageButton>
+            </Frame.Content>
+        </Frame>
+
+        <Label Text="Prepare"
+               FontSize="16"
+               Grid.Row="9"
+               Grid.RowSpan="2"
+               Grid.Column="9"
+               TextColor="Black"
+               HorizontalOptions="Center"/>
+        
+
+
+
+    </Grid>
+    
+    
+</ContentPage>

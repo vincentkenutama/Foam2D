@@ -2,7 +2,7 @@ is_global = true
 build_property.TargetFramework = net8.0-windows10.0.19041.0
 build_property.TargetPlatformMinVersion = 10.0.17763.0
 build_property.UsingMicrosoftNETSdkWeb = 
-build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 9A19103F-16F7-4668-BE54-9A1E7A4F7556
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
@@ -11,3 +11,39 @@ build_property.RootNamespace = Foam2D
 build_property.ProjectDir = D:\Foam2D\Foam2D\Foam2D\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[D:/Foam2D/Foam2D/Foam2D/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Foam2D.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[D:/Foam2D/Foam2D/Foam2D/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Foam2D.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[D:/Foam2D/Foam2D/Foam2D/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Foam2D.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[D:/Foam2D/Foam2D/Foam2D/Resources/Styles/StartPageStyles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Foam2D.Resources.Styles.StartPageStyles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\StartPageStyles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\StartPageStyles.xaml
+
+[D:/Foam2D/Foam2D/Foam2D/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Foam2D.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[D:/Foam2D/Foam2D/Foam2D/StartPage/StartPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Foam2D.StartPage.StartPage.xaml
+build_metadata.AdditionalFiles.TargetPath = StartPage\StartPage.xaml
+build_metadata.AdditionalFiles.RelativePath = StartPage\StartPage.xaml
