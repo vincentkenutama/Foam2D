@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Foam2DConsole/1.0.0": {
+        "runtime": {
+          "Foam2DConsole.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Foam2DConsole/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

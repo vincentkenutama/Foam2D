@@ -30,7 +30,7 @@
     <AppXManifest Include="D:\Foam2D\Foam2D\Foam2D\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-12-20T10:10:21.656</Modified>
+      <Modified>2023-12-21T02:38:44.036</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Foam2D.dll">
       <PackagePath>Foam2D.dll</PackagePath>
-      <Modified>2023-12-20T10:10:21.169</Modified>
+      <Modified>2023-12-21T02:38:43.079</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Foam2D.exe</PackagePath>
-      <Modified>2023-12-20T10:10:21.173</Modified>
+      <Modified>2023-12-21T02:38:43.124</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>

@@ -1,0 +1,15 @@
+D:\Foam2D\Foam2D\Foam2DConsole\bin\Debug\net8.0\Foam2DConsole.exe
+D:\Foam2D\Foam2D\Foam2DConsole\bin\Debug\net8.0\Foam2DConsole.deps.json
+D:\Foam2D\Foam2D\Foam2DConsole\bin\Debug\net8.0\Foam2DConsole.runtimeconfig.json
+D:\Foam2D\Foam2D\Foam2DConsole\bin\Debug\net8.0\Foam2DConsole.dll
+D:\Foam2D\Foam2D\Foam2DConsole\bin\Debug\net8.0\Foam2DConsole.pdb
+D:\Foam2D\Foam2D\Foam2DConsole\obj\Debug\net8.0\Foam2DConsole.GeneratedMSBuildEditorConfig.editorconfig
+D:\Foam2D\Foam2D\Foam2DConsole\obj\Debug\net8.0\Foam2DConsole.AssemblyInfoInputs.cache
+D:\Foam2D\Foam2D\Foam2DConsole\obj\Debug\net8.0\Foam2DConsole.AssemblyInfo.cs
+D:\Foam2D\Foam2D\Foam2DConsole\obj\Debug\net8.0\Foam2DConsole.csproj.CoreCompileInputs.cache
+D:\Foam2D\Foam2D\Foam2DConsole\obj\Debug\net8.0\Foam2DConsole.sourcelink.json
+D:\Foam2D\Foam2D\Foam2DConsole\obj\Debug\net8.0\Foam2DConsole.dll
+D:\Foam2D\Foam2D\Foam2DConsole\obj\Debug\net8.0\refint\Foam2DConsole.dll
+D:\Foam2D\Foam2D\Foam2DConsole\obj\Debug\net8.0\Foam2DConsole.pdb
+D:\Foam2D\Foam2D\Foam2DConsole\obj\Debug\net8.0\Foam2DConsole.genruntimeconfig.cache
+D:\Foam2D\Foam2D\Foam2DConsole\obj\Debug\net8.0\ref\Foam2DConsole.dll
