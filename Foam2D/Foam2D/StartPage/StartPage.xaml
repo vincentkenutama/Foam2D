@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Foam2D.StartPage.StartPage"
              xmlns:Styles="clr-namespace:Foam2D.Resources.Styles"
+             xmlns:local="clr-namespace:Foam2D.StartPage.LoadRecentFile"
              BackgroundColor="White"
              >
     <!--<ContentPage.Resources>
@@ -10,6 +11,10 @@
             <Styles:StartPageStyles x:Key="StartPageStyles"/>
         </ResourceDictionary>
     </ContentPage.Resources>-->
+
+    <ContentPage.BindingContext>
+        <local:LoadRecentFiles/>
+    </ContentPage.BindingContext>
         
     <Grid>
         <Grid.RowDefinitions>
@@ -92,7 +97,7 @@
             VerticalTextAlignment="Center"
             TextColor="Black"/>
 
-        <!--First Files
+        <!--First Files On Row
         Row 3-->
         <Frame  Margin="0" Padding="0" Style="{StaticResource RecentFilesFrame}" Grid.Row="3" Grid.Column="1">
             <Grid>
@@ -115,8 +120,9 @@
 
                 </Grid.ColumnDefinitions>
 
-                <!--Filename Label-->
-                <Label Text="Filename"
+                <!--First Filename Label-->
+                <Label 
+                       Text="{Binding FileName}"
                        TextColor="Black"
                        Grid.Row="1"
                        Grid.Column="1"
@@ -124,7 +130,7 @@
                        FontSize="12"/>
 
                 <!--File Path Label-->
-                <Label Text="D:\Foam2D\Resource"
+                <Label Text="{Binding FilePath}"
                        TextColor="#9d9d9d"
                        Grid.Row="3"
                        Grid.Column="1"
@@ -132,7 +138,8 @@
                        FontSize="12"/>
 
                 <!--Date Label-->
-                <Label Text="20/12/2023"
+                <Label x:Name="first_date_label"
+                       Text="{Binding LastModified}"
                        Grid.Row="1"
                        Grid.RowSpan="3"
                        Grid.Column="2"
@@ -413,7 +420,8 @@
             <Frame.Content>
                 <ImageButton Source="new.png"
                              HorizontalOptions="Center"
-                             WidthRequest="55"/>
+                             WidthRequest="55"
+                             />
             </Frame.Content>
               
         </Frame>
