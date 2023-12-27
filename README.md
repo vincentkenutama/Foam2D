@@ -7,6 +7,7 @@ This is the start page of CNC "Foam2D" Projects
 
 ## Main Task "For Now"
 ### Dekstop Application
+- [x] Json Reader for Recent Files on Start Page Backend
 - [ ] Creating Start Page
 - [ ] Create the Backend for Startpage
 ### Embedded System
