@@ -30,25 +30,25 @@
     <AppXManifest Include="D:\Foam2D\Foam2D\Foam2D\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-12-21T22:38:14.588</Modified>
+      <Modified>2023-12-27T17:48:52.832</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-12-21T22:37:45.124</Modified>
+      <Modified>2023-12-27T17:46:03.753</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Foam2D.runtimeconfig.json">
       <PackagePath>Foam2D.runtimeconfig.json</PackagePath>
-      <Modified>2023-12-20T07:56:42.186</Modified>
+      <Modified>2023-12-27T07:57:11.664</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Foam2D.dll">
       <PackagePath>Foam2D.dll</PackagePath>
-      <Modified>2023-12-21T22:37:44.811</Modified>
+      <Modified>2023-12-27T17:46:03.462</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Foam2D.exe</PackagePath>
-      <Modified>2023-12-21T22:37:44.816</Modified>
+      <Modified>2023-12-27T17:46:03.468</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -56,7 +56,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\Resources\Raw\path.json">
       <PackagePath>path.json</PackagePath>
-      <Modified>2023-12-21T22:38:07.091</Modified>
+      <Modified>2023-12-27T17:48:52.462</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\Resources\Raw\test.txt">
+      <PackagePath>test.txt</PackagePath>
+      <Modified>2023-12-27T12:19:38.523</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
@@ -500,7 +504,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Foam2D.deps.json">
       <PackagePath>Foam2D.deps.json</PackagePath>
-      <Modified>2023-12-21T20:42:58.171</Modified>
+      <Modified>2023-12-27T17:42:30.706</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vince\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

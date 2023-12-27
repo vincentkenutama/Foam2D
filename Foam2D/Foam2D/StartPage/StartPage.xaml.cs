@@ -2,15 +2,16 @@ using Foam2D.Classes;
 using System.Text.Json;
 using Foam2D.StartPage.LoadRecentFile;
 
+using System.Diagnostics;
+
 namespace Foam2D.StartPage;
 
 public partial class StartPage : ContentPage
 {
 
-    RecentFile recent = new RecentFile();
+    
 	public StartPage()
 	{
-        
 
         BindingContext = new LoadRecentFiles();
         InitializeComponent();
@@ -31,5 +32,17 @@ public partial class StartPage : ContentPage
             return "";
         }
 
+    }
+
+    int count;
+    private void OpenBtn_Clicked(object sender, EventArgs e)
+    {
+        RecentFile.UpdateJsonFile($"coba{count}", $@"D:\", $"{DateTime.Now.ToString("dd-MM-yyyy")}");
+
+        count++;
+        if(BindingContext is LoadRecentFiles loadrecentfiles)
+        {
+            loadrecentfiles.LoadRecent();
+        }
     }
 }

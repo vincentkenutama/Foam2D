@@ -5,7 +5,14 @@
              xmlns:Styles="clr-namespace:Foam2D.Resources.Styles"
              xmlns:local="clr-namespace:Foam2D.StartPage.LoadRecentFile"
              BackgroundColor="White"
+             MinimumHeightRequest="920"
+             MinimumWidthRequest="643"
+             
+              
              >
+
+    <!--int width = 920;-->
+            <!--int height = 643;-->
     <!--<ContentPage.Resources>
         <ResourceDictionary>
             <Styles:StartPageStyles x:Key="StartPageStyles"/>
@@ -97,9 +104,25 @@
             VerticalTextAlignment="Center"
             TextColor="Black"/>
 
+
+        <!--No Recent Files Label-->
+        <Label Text="No Recent Activity..."
+               Grid.Row="3"
+               Grid.RowSpan="9"
+               Grid.Column="1"
+               Grid.ColumnSpan="1"
+               TextColor="Black"
+               FontFamily="InterRegular"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"
+               Padding="0, 10"
+               IsVisible="{Binding EmptyRecentVisibility}">
+            
+        </Label>
+        
         <!--First Files On Row
         Row 3-->
-        <Frame  Margin="0" Padding="0" Style="{StaticResource RecentFilesFrame}" Grid.Row="3" Grid.Column="1">
+        <Frame  Margin="0" Padding="0" Style="{StaticResource RecentFilesFrame}" Grid.Row="3" Grid.Column="1" IsVisible="{Binding FirstRecentVisibility}">
             <Grid>
                 <Grid.RowDefinitions>
                     <!--5 Row-->
@@ -122,15 +145,16 @@
 
                 <!--First Filename Label-->
                 <Label 
-                       Text="{Binding FileName}"
+                       Text="{Binding FirstFileName}"
                        TextColor="Black"
                        Grid.Row="1"
                        Grid.Column="1"
                        FontFamily="InterRegular"
-                       FontSize="12"/>
+                       FontSize="12"
+                       />
 
                 <!--File Path Label-->
-                <Label Text="{Binding FilePath}"
+                <Label Text="{Binding FirstFilePath}"
                        TextColor="#9d9d9d"
                        Grid.Row="3"
                        Grid.Column="1"
@@ -139,7 +163,7 @@
 
                 <!--Date Label-->
                 <Label x:Name="first_date_label"
-                       Text="{Binding LastModified}"
+                       Text="{Binding FirstLastModified}"
                        Grid.Row="1"
                        Grid.RowSpan="3"
                        Grid.Column="2"
@@ -160,7 +184,7 @@
 
         <!--Second Files
         Row 5-->
-        <Frame  Margin="0" Padding="0" Style="{StaticResource RecentFilesFrame}" Grid.Row="5" Grid.Column="1">
+        <Frame  Margin="0" Padding="0" Style="{StaticResource RecentFilesFrame}" Grid.Row="5" Grid.Column="1" IsVisible="{Binding SecondRecentVisibility}">
             <Grid>
                 <Grid.RowDefinitions>
                     <!--5 Row-->
@@ -182,7 +206,7 @@
                 </Grid.ColumnDefinitions>
 
                 <!--Filename Label-->
-                <Label Text="Filename"
+                <Label Text="{Binding SecondFileName}"
                        TextColor="Black"
                        Grid.Row="1"
                        Grid.Column="1"
@@ -190,7 +214,7 @@
                        FontSize="12"/>
 
                 <!--File Path Label-->
-                <Label Text="D:\Foam2D\Resource"
+                <Label Text="{Binding SecondFilePath}"
                        TextColor="#9d9d9d"
                        Grid.Row="3"
                        Grid.Column="1"
@@ -198,7 +222,7 @@
                        FontSize="12"/>
 
                 <!--Date Label-->
-                <Label Text="20/12/2023"
+                <Label Text="{Binding SecondLastModified}"
                        Grid.Row="1"
                        Grid.RowSpan="3"
                        Grid.Column="2"
@@ -219,7 +243,7 @@
 
         <!--Third Files 
         Row 7-->
-        <Frame  Margin="0" Padding="0" Style="{StaticResource RecentFilesFrame}" Grid.Row="7" Grid.Column="1">
+        <Frame  Margin="0" Padding="0" Style="{StaticResource RecentFilesFrame}" Grid.Row="7" Grid.Column="1" IsVisible="{Binding ThirdRecentVisibility}">
             <Grid>
                 <Grid.RowDefinitions>
                     <!--5 Row-->
@@ -241,7 +265,7 @@
                 </Grid.ColumnDefinitions>
 
                 <!--Filename Label-->
-                <Label Text="Filename"
+                <Label Text="{Binding ThirdFileName}"
                        TextColor="Black"
                        Grid.Row="1"
                        Grid.Column="1"
@@ -249,7 +273,7 @@
                        FontSize="12"/>
 
                 <!--File Path Label-->
-                <Label Text="D:\Foam2D\Resource"
+                <Label Text="{Binding ThirdFilePath}"
                        TextColor="#9d9d9d"
                        Grid.Row="3"
                        Grid.Column="1"
@@ -257,7 +281,7 @@
                        FontSize="12"/>
 
                 <!--Date Label-->
-                <Label Text="20/12/2023"
+                <Label Text="{Binding ThirdLastModified}"
                        Grid.Row="1"
                        Grid.RowSpan="3"
                        Grid.Column="2"
@@ -277,7 +301,7 @@
         </Frame>
 
         <!--Fourth Files-->
-        <Frame  Margin="0" Padding="0" Style="{StaticResource RecentFilesFrame}" Grid.Row="9" Grid.Column="1">
+        <Frame  Margin="0" Padding="0" Style="{StaticResource RecentFilesFrame}" Grid.Row="9" Grid.Column="1" IsVisible="{Binding FourthRecentVisibility}">
             <Grid>
                 <Grid.RowDefinitions>
                     <!--5 Row-->
@@ -299,7 +323,7 @@
                 </Grid.ColumnDefinitions>
                 
                 <!--Filename Label-->
-                <Label Text="Filename"
+                <Label Text="{Binding FourthFileName}"
                        TextColor="Black"
                        Grid.Row="1"
                        Grid.Column="1"
@@ -307,7 +331,7 @@
                        FontSize="12"/>
 
                 <!--File Path Label-->
-                <Label Text="D:\Foam2D\Resource"
+                <Label Text="{Binding FourthFilePath}"
                        TextColor="#9d9d9d"
                        Grid.Row="3"
                        Grid.Column="1"
@@ -315,7 +339,7 @@
                        FontSize="12"/>
                 
                 <!--Date Label-->
-                <Label Text="20/12/2023"
+                <Label Text="{Binding FourthLastModified}"
                        Grid.Row="1"
                        Grid.RowSpan="3"
                        Grid.Column="2"
@@ -337,7 +361,7 @@
         <!--Fifth Files 
         Row 11 
         Column 1-->
-        <Frame  Margin="0" Padding="0" Style="{StaticResource RecentFilesFrame}" Grid.Row="11" Grid.Column="1">
+        <Frame  Margin="0" Padding="0" Style="{StaticResource RecentFilesFrame}" Grid.Row="11" Grid.Column="1" IsVisible="{Binding FifthRecentVisibility}">
             <Grid>
                 <Grid.RowDefinitions>
                     <!--5 Row-->
@@ -359,7 +383,7 @@
                 </Grid.ColumnDefinitions>
 
                 <!--Filename Label-->
-                <Label Text="Filename"
+                <Label Text="{Binding FifthFileName}"
                        TextColor="Black"
                        Grid.Row="1"
                        Grid.Column="1"
@@ -367,7 +391,7 @@
                        FontSize="12"/>
 
                 <!--File Path Label-->
-                <Label Text="D:\Foam2D\Resource"
+                <Label Text="{Binding FifthFilePath}"
                        TextColor="#9d9d9d"
                        Grid.Row="3"
                        Grid.Column="1"
@@ -375,7 +399,7 @@
                        FontSize="12"/>
 
                 <!--Date Label-->
-                <Label Text="20/12/2023"
+                <Label Text="{Binding FifthLastModified}"
                        Grid.Row="1"
                        Grid.RowSpan="3"
                        Grid.Column="2"
@@ -448,7 +472,9 @@
             <Frame.Content>
                 <ImageButton Source="open.png"
                              WidthRequest="55"
-                             HeightRequest="55"/>
+                             HeightRequest="55"
+                             x:Name="OpenBtn"
+                             Clicked="OpenBtn_Clicked"/>
             </Frame.Content>
         </Frame>
 
@@ -462,6 +488,9 @@
                 HorizontalOptions="Center">
             
         </Label>
+
+
+
 
         <!--Prepare Button-->
         <Frame Grid.Row="6"
