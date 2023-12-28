@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Foam2D")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+89129852eb95b604c68158bf5095f107ac56fb26")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+b4a233f93cbc0c8b97f3ca73c497e4e9d1e80cd2")]
 [assembly: System.Reflection.AssemblyProductAttribute("Foam2D")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Foam2D")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

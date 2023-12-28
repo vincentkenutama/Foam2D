@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\Foam2D\Foam2D\Foam2D\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-12-27T17:48:52.832</Modified>
+      <Modified>2023-12-28T12:28:19.505</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-12-27T17:46:03.753</Modified>
+      <Modified>2023-12-28T12:28:19.420</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Foam2D.runtimeconfig.json">
       <PackagePath>Foam2D.runtimeconfig.json</PackagePath>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Foam2D.dll">
       <PackagePath>Foam2D.dll</PackagePath>
-      <Modified>2023-12-27T17:46:03.462</Modified>
+      <Modified>2023-12-28T12:28:19.125</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Foam2D.exe</PackagePath>
-      <Modified>2023-12-27T17:46:03.468</Modified>
+      <Modified>2023-12-28T12:28:19.135</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -56,7 +56,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\Resources\Raw\path.json">
       <PackagePath>path.json</PackagePath>
-      <Modified>2023-12-27T17:48:52.462</Modified>
+      <Modified>2023-12-28T12:23:14.651</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Foam2D\Foam2D\Foam2D\Resources\Raw\test.txt">
       <PackagePath>test.txt</PackagePath>

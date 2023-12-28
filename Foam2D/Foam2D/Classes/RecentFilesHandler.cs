@@ -68,9 +68,9 @@ namespace Foam2D.Classes
             {
                 try
                 {
-
                     json_data = JsonSerializer.Deserialize<RecentFileData>(stream);
-                    if (json_data != null) {IsNull = false;}
+                    if (json_data != null)
+                         IsNull = false;
                 }
                 catch 
                 {
@@ -120,12 +120,55 @@ namespace Foam2D.Classes
             for (int i = 0; i < json_data?.FileName?.Count; i++)
             {
                 
-                FileNameQueue?.Enqueue(json_data.FileName[i]);
-                FilePathQueue?.Enqueue(json_data?.FilePath?[i]);
-                DateModifiedQueue?.Enqueue(json_data?.DateModified?[i]);
+                FileNameQueue?.Enqueue(json_data.FileName![i]);
+                FilePathQueue?.Enqueue(json_data.FilePath![i]);
+                DateModifiedQueue?.Enqueue(json_data.DateModified![i]);
             }
         }
 
+        public static async Task UpdateJsonFile(CurrentWorkingFileData current_file)
+        {
+            //Return if the path for json is not setted
+            if (!PathSetted) return;
+
+            FileNameQueue.Enqueue(current_file.GetFileName!);
+            FilePathQueue.Enqueue(current_file.GetFilePath!);
+            DateModifiedQueue.Enqueue(current_file.GetDateModified!);
+
+            CopyJsonBuffer();
+            ClearJsonBuffer();
+
+            for (int i = 0; i < 5; i++)
+            {
+                if (!FileNameQueue.TryPeek(out var fileName)) break;
+
+                json_data?.FileName?.Add(FileNameQueue.Dequeue());
+                json_data?.FilePath?.Add(FilePathQueue.Dequeue());
+                json_data?.DateModified?.Add(DateModifiedQueue.Dequeue());
+
+            }
+
+            //Checking if there is a queue available after 5 recent files
+            //Commonly causing bug, if this section is nowhere.
+            if (FileNameQueue.TryPeek(out var Filename))
+            {
+                for (int i = 0; i < FileNameQueue.Count; i++)
+                {
+                    FileNameQueue.Dequeue();
+                    FilePathQueue.Dequeue();
+                    DateModifiedQueue.Dequeue();
+                }
+            }
+
+
+
+            string json_serial = JsonSerializer.Serialize(json_data);
+
+            using (StreamWriter writer = new StreamWriter($@"D:\Foam2D\Foam2D\Foam2D\Resources\Raw\path.json"))
+            {
+                writer.WriteLine(json_serial);
+            }
+        }
         public static void UpdateJsonFile(string file_name, string file_path, string date_modified)
         {
             //Return if the path for json is not setted
@@ -137,7 +180,7 @@ namespace Foam2D.Classes
 
             CopyJsonBuffer();
             ClearJsonBuffer();
-            
+
             for (int i = 0; i < 5; i++)
             {
                 if (!FileNameQueue.TryPeek(out var fileName)) break;
